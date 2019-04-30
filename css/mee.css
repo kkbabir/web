@@ -19,12 +19,14 @@
 html {
   scroll-behavior: smooth;
  transition:10s;
+	overflow-X:hidden;
 }
 
 body{
     background: #ddd;
     font-family: 'Patua One', cursive;
 	margin:auto 0px;
+	overflow-X:hidden;
 	padding:auto 0px;
 	
 }
