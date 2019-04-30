@@ -1,0 +1,42 @@
+
+@keyframes loaderAnim {
+	0% {
+		box-shadow: 20px 0 0 var(--color-text), -20px 0 0 transparent;
+		background: transparent;
+	}
+	50% {
+		box-shadow: 20px 0 0 transparent, -20px 0 0 transparent;
+		background: var(--color-text);
+	}
+	100% {
+		box-shadow: 20px 0 0 transparent, -20px 0 0 var(--color-text);
+		background: transparent;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-link);
+	outline: none;
+}
+
+
+
+
+/* Common styles for the words */
+.word {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
